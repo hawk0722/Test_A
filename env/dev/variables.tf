@@ -4,11 +4,11 @@ variable "location" {
   type        = string
   default     = "japaneast"
 }
-variable "env" {
-  description = "環境を把握するために利用する。タグやリソース名で利用する。"
-  type        = string
-}
 variable "app" {
   description = "アプリケーションまたはワークロード名を表す。タグやリソース名で利用する。"
+  type        = string
+}
+variable "env" {
+  description = "環境を把握するために利用する。タグやリソース名で利用する。"
   type        = string
 }
